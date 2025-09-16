@@ -1,54 +1,63 @@
-🐺 Quant Wolf — Discord Trading Signals Bot
+# 🐺 Quant Wolf — The Ultimate Discord Trading Signals Bot  
 
+![Quant Wolf Banner](banner.png)  
 
+[![Stars](https://img.shields.io/github/stars/your-username/quant-wolf-discord-bot?style=for-the-badge)](https://github.com/your-username/quant-wolf-discord-bot/stargazers)  
+[![Forks](https://img.shields.io/github/forks/your-username/quant-wolf-discord-bot?style=for-the-badge)](https://github.com/your-username/quant-wolf-discord-bot/network/members)  
+[![Issues](https://img.shields.io/github/issues/your-username/quant-wolf-discord-bot?style=for-the-badge)](https://github.com/your-username/quant-wolf-discord-bot/issues)  
+[![License](https://img.shields.io/github/license/your-username/quant-wolf-discord-bot?style=for-the-badge)](LICENSE)  
 
+---
 
+## 🔥 What is Quant Wolf?  
 
+**Quant Wolf** is not just another bot — it’s your **personal Wolf of Wall Street inside Discord**.  
+Built for **retail traders, quant enthusiasts, and finance communities**, it delivers **real-time stock insights, technical analysis, and market news**, all wrapped in a slick Discord interface.  
 
+💡 Imagine a bot that:  
+- 📊 Gives **live NSE & global stock prices** in seconds  
+- 🔍 Runs **professional-grade technical analysis** (SMA, EMA, RSI, MACD, Volume)  
+- 📰 Filters **market-moving news** with your custom keywords  
+- 🐺 Manages a **community trading watchlist** for your server  
+- 📈 Lets you **backtest strategies** with real market data  
 
+No spam. No hype. Just **clean signals**.  
 
-🚀 About Quant Wolf
+---
 
-Quant Wolf is an AI-powered Discord bot that acts as your Wolf of Wall Street, delivering:
+## ✨ Core Features  
 
-📊 Live stock prices (NSE + global tickers)
+| ⚡ Feature | 🛠️ Command | 📖 What It Does |
+|------------|------------|-----------------|
+| 💰 **Live Pricing** | `/price <ticker>` | Instantly fetches the latest stock price |
+| 📊 **TA Snapshot** | `/signal <ticker>` | Runs SMA, EMA, RSI, MACD, and Volume checks |
+| 📰 **News Alerts** | `/keywords add <word>` | Triggers alerts on earnings, deals, or keywords you track |
+| 👀 **Smart Watchlist** | `/watch list` | Share & manage NSE tickers as a community |
+| 📅 **Holiday Mode** | `/holidays add <date>` | Bot auto-pauses on NSE trading holidays |
+| 📈 **Backtesting Engine** | `/backtest <ticker> <start> <end>` | Test strategies with CAGR, win rate & drawdown |
 
-🔍 Technical analysis: SMA, EMA, RSI, MACD, Volume Surges
+---
 
-📰 Curated market news via keyword alerts
+## 🎥 Demo Preview  
 
-🐺 Community watchlists for group trading
+*(Add screenshots or GIFs of `/price`, `/signal`, `/backtest` here)*  
+Example:  
+![Demo Screenshot](demo.png)  
 
-📈 Backtesting engine for strategy validation
+---
 
-All, right inside your Discord server.
+## ⚡ Quick Setup  
+```bash
+Clone the repo:  
 
-✨ Features
-Feature	Command	Description
-💰 Live Pricing	/price <ticker>	Get the latest stock price instantly
-📊 TA Snapshot	/signal <ticker>	Full SMA/EMA/RSI/MACD/Volume analysis
-📰 News Alerts	/keywords add <word>	Track breaking news headlines with AI filters
-👀 Watchlist	/watch list	Manage NSE watchlist for your server
-📅 Holiday Mode	/holidays add <date>	Pauses signals on NSE holidays
-📈 Backtesting	/backtest <ticker> <start> <end>	Simulate strategies & see CAGR, win rate, drawdown
-🖥️ Screenshots / Demo
-
-(Add screenshots of your bot in action here: /price, /signal, /backtest etc.)
-
-⚡ Quick Start
-
-Clone repo
-
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
-
-
-Install requirements
+git clone https://github.com/your-username/quant-wolf-discord-bot.git
+cd quant-wolf-discord-bot
+Install dependencies:
 
 pip install -r requirements.txt
 
 
-Configure environment (.env)
+Configure your .env:
 
 DISCORD_TOKEN=your_discord_bot_token
 FINNHUB_TOKEN=your_finnhub_api_key
@@ -57,35 +66,35 @@ SIGNALS_CHANNEL_NAME=signals
 ENABLE_PAPER=0
 
 
-Run the bot
+Run the bot:
 
 python bot.py
 
 🧠 Tech Stack
 
-Python 3.11+
+Python 3.11+ 🐍
 
-discord.py
+discord.py 💬
 
-pandas
+pandas + yfinance 📊
 
-yfinance
+aiosqlite 🗄️
 
-aiosqlite
+Finnhub + MarketAux APIs 🌍
 
-🐺 The Vision
+🐺 Vision
 
-“Your Wolf of Wall Street, reborn as a Discord bot — disciplined, data-driven, and working only for you.”
+“Trading isn’t about hype — it’s about signals.
+Quant Wolf is your disciplined, data-driven wolfpack inside Discord.”
 
-🤝 Contributing
+🤝 Contribute
 
-Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
+We welcome pull requests and ideas. Join the pack — improve strategies, add new indicators, or extend integrations.
 
 📜 License
 
-This project is licensed under the MIT License — see the LICENSE
- file for details.
+Licensed under the MIT License. Free to use, modify, and improve.
 
-🔥 With a README like this + your wolf logo/banner → people will star just from first impressions.
+🔖 GitHub Topics
 
-Do you want me to also generate Markdown badges for NSE / Trading / Finance topics so your repo looks even more discoverable on GitHub search?
+discord-bot trading-bot quant stock-market nse finance technical-analysis ai-trading
