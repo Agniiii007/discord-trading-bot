@@ -68,7 +68,7 @@ ENABLE_PAPER=0
 
 Run the bot:
 
-python bot.py
+python quantbot.py
 
 🧠 Tech Stack
 
